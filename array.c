@@ -9,9 +9,12 @@ int main()
     printf("%d\n",a[9]);
     
     printf("\n Enter the five elements:\n");
-    for(i=0;i<5;i++)
+    for(i=0;i<5;i++){
     scanf("%d"&ar[i]);
-    for(i=0;i<7;i++)
+    }
+    for(i=0;i<7;i++){
+
     printf("%d\n",ar[i]);
+    }
     return 0;
 }
